@@ -111,6 +111,7 @@
 // 5(a) Select an ID for your WISP. If using a numbered WISP, 
 //      enter that number here. The high/low byte will be computed by the
 //      preprocessor.
+//  NOTE FROM MICKEY:   THE WISPS THAT YOU HAVE ARE NUMBERS 65 AND 69.
 #define WISP_EZ_ID 321
 //
 // 5(b) If desired, customize the first 9 bytes of the EPC ("User Field"):
