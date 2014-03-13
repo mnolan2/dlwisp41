@@ -63,6 +63,7 @@
 //  [Not implemented] Get information about the communication link.
 #define SENSOR_COMM_STATS             5
 //
+// SENSOR_EXTERN_INPUT
 // 2(b) Change the value of ACTIVE_SENSOR to the desired sensor title 
 //      from the list above:
 #define ACTIVE_SENSOR                 SENSOR_ACCEL_QUICK
@@ -112,7 +113,7 @@
 //      enter that number here. The high/low byte will be computed by the
 //      preprocessor.
 //  NOTE FROM MICKEY:   THE WISPS THAT YOU HAVE ARE NUMBERS 65 AND 69.
-#define WISP_EZ_ID 321
+#define WISP_EZ_ID 69
 //
 // 5(b) If desired, customize the first 9 bytes of the EPC ("User Field"):
 #define EPC_USER_FIELD 0x00, 0x00, 0x00, 0x01, 0x00, 0x00, 0x00, 0x00, 0x00
