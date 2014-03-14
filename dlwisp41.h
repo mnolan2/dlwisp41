@@ -38,7 +38,8 @@
 #define SDA_B          BIT1       // input (connected to 10k pullup res)
 #define SCL_B          BIT2       // input (connected to 10k pullup res)
 #define VSENSE_POWER   BIT3       // output
-#define TX_A           BIT4       // output unless externally driven
+//#define TX_A           BIT4       // output unless externally driven
+#define SENSOR_POWER_PIN    BIT4
 #define RX_A           BIT5       // output unless externally driven
 #define VSENSE_IN      BIT6       // input
 #define TEMP_EXT_IN    BIT7       // input
@@ -55,7 +56,6 @@
 // #define INCH_3_5 INCH_5  // ??
 
 #define DRIVE_ALL_PINS  \
-  P1OUT = 0;  \
   P2OUT = 0;  \
   P3OUT = 0;  \
   P1DIR = TEMP_POWER | TX_PIN | RX_EN_PIN | DEBUG_1_4 | LED_POWER | CAP_SENSE; \

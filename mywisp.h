@@ -63,10 +63,13 @@
 //  [Not implemented] Get information about the communication link.
 #define SENSOR_COMM_STATS             5
 //
+// SENSOR_ECG(0x10) <= If that's not right, don't know what is.
+//  External ECG sensor system sampled w/a 10-bit ADC
+#define SENSOR_ECG                    6
 // SENSOR_EXTERN_INPUT
 // 2(b) Change the value of ACTIVE_SENSOR to the desired sensor title 
 //      from the list above:
-#define ACTIVE_SENSOR                 SENSOR_ACCEL_QUICK
+#define ACTIVE_SENSOR                 SENSOR_ECG
 ////////////////////////////////////////////////////////////////////////////////
 
 ////////////////////////////////////////////////////////////////////////////////
@@ -194,6 +197,8 @@
     #include "null_sensor.h"
   #elif (ACTIVE_SENSOR == SENSOR_COMM_STATS)
     #error "SENSOR_COMM_STATS not yet implemented"
+  #elif (ACTIVE_SENSOR == ECG_SENSOR)
+    #include "ecg_sensor.h"
   #endif
   extern unsigned char sensor_busy;
   void init_sensor();
