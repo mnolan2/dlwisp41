@@ -4,4 +4,8 @@ For more information about WISP, refer to the "WISP wiki":http://wisp.wikispaces
 
 The initial import of the Subversion repository into this Github project occurred on September 21, 2010.
 
+///
+This fork of the comm. repo is for the development of firmware to control the ECGWISP system. (Michael Nolan)
+///
+
 See license.txt for license information.
