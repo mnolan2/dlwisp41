@@ -48,8 +48,6 @@
 
 #if(WISP_VERSION != BLUE_WISP)
   #error "WISP Version not supported"
-#endif
-#include "dlwisp41.h"
 #include "rfid.h"
 
 /*******************************************************************************
