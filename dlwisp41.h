@@ -38,8 +38,8 @@
 #define SDA_B          BIT1       // input (connected to 10k pullup res)
 #define SCL_B          BIT2       // input (connected to 10k pullup res)
 #define VSENSE_POWER   BIT3       // output
-//#define TX_A           BIT4       // output unless externally driven
-#define SENSOR_POWER_PIN    BIT4
+#define TX_A           BIT4       // output unless externally driven
+// #define SENSOR_POWER_PIN    BIT4
 #define RX_A           BIT5       // output unless externally driven
 #define VSENSE_IN      BIT6       // input
 #define TEMP_EXT_IN    BIT7       // input
