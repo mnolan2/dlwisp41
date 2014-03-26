@@ -1,5 +1,6 @@
 /* Created on June 13, 2012 by Artem Dementyev. Trying to interface with EEG low power board rev 1 */
 /* Revised on March 20th, 2014 by Michael Nolan. Adapted to ECG monitoring application (bigger B, faster sr, etc) */
+
 #include "mywisp.h"
 #if (ACTIVE_SENSOR == SENSOR_EEG_ARTEM)
 
